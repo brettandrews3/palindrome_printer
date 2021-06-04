@@ -2,7 +2,10 @@
 # The code below runs through list 'characters' L-R, then runs through list R-L
 # to spell 'TACOCAT' (I'm a palindrome!)
 
-characters = ['T', 'A', 'C', 'O']
+#characters = ['T', 'A', 'C', 'O']      # Outputs 'TACOCAT'
+#characters = ['A', 'M', 'A', 'N', 'A', 'P', 'L', 'A', 'N', 'A', 'C'] # Outputs 'A MAN A PLAN A CANAL PANAMA'
+characters = ['W', 'A', 'S', 'I', 'T', 'A', 'R'] # Outputs 'WAS IT A RAT I SAW'
+
 output = ''                             # a blank space to hold the list output, 1 letter at a time
 length = len(characters)                # length = 4
 i = 0                                   # Starting point for our counter 'i'
