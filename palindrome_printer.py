@@ -8,6 +8,7 @@ length = len(characters)                # length = 4
 i = 0                                   # Starting point for our counter 'i'
 while (i < length):                     # while i < 4:
     output = output + characters[i]     # Print characters, one by one, L-R
+    i = i + 1
 
 length = length * -1                    # Print list in reverse using negative indices
 i = -2                                  # Starting point is 2nd character from the right
