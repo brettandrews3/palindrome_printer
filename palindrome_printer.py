@@ -4,7 +4,9 @@
 
 #characters = ['T', 'A', 'C', 'O']      # Outputs 'TACOCAT'
 #characters = ['A', 'M', 'A', 'N', 'A', 'P', 'L', 'A', 'N', 'A', 'C'] # Outputs 'A MAN A PLAN A CANAL PANAMA'
-characters = ['W', 'A', 'S', 'I', 'T', 'A', 'R'] # Outputs 'WAS IT A RAT I SAW'
+#characters = ['W', 'A', 'S', 'I', 'T', 'A', 'R'] # Outputs 'WAS IT A RAT I SAW'
+#characters = ['D', 'O', 'N', 'T']      # Outputs 'DONT RUN'
+#characters = ['R', 'E', 'D', 'R', 'U', 'M', 'S', 'I', 'R'] # Outputs 'RED RUM SIR IS MURDER'
 
 output = ''                             # a blank space to hold the list output, 1 letter at a time
 length = len(characters)                # length = 4
